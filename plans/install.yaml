@@ -1,0 +1,5 @@
+steps:
+   - message: Welcome to the Helix IPLM Installer! 
+   - task: helix_iplm_adm_module::install_prepare_machine 
+     run_as: root
+     targets: 
